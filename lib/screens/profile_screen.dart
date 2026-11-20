@@ -119,7 +119,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 const SectionTitle('Favoritos'),
                 const SizedBox(height: 12),
                 SizedBox(
-                  height: 165,
+                  height: 190,
                   child: ListView.separated(
                     scrollDirection: Axis.horizontal,
                     itemCount: 3,

@@ -174,7 +174,7 @@ class _SearchScreenState extends State<SearchScreen> {
     child: InkWell(
       onTap: () => setState(() => category = title),
       child: Container(
-        height: 112,
+        height: 138,
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),

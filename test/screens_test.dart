@@ -45,7 +45,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.enterText(find.byType(TextField).first, 'From Zero');
     await tester.pumpAndSettle();
-    await tester.tap(find.text('From Zero'));
+    await tester.tap(find.text('From Zero').last);
     await tester.pumpAndSettle();
     await tester.scrollUntilVisible(
       find.widgetWithText(FilledButton, 'Escribir reseña'),

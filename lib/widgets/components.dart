@@ -27,7 +27,7 @@ class AppBackground extends StatelessWidget {
         colors: [tint.withValues(alpha: .27), AppColors.background],
       ),
     ),
-    child: child,
+    child: Material(type: MaterialType.transparency, child: child),
   );
 }
 
@@ -127,7 +127,7 @@ class Surface extends StatelessWidget {
       borderRadius: BorderRadius.circular(24),
       border: Border.all(color: const Color(0xFF542132)),
     ),
-    child: child,
+    child: Material(type: MaterialType.transparency, child: child),
   );
 }
 
